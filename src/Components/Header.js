@@ -1,5 +1,6 @@
 import React from "react";
 import TypeWriter from "react-typewriter";
+import "./header.css";
 
 const Header = ({ data }) => {
   if (data) {
@@ -44,19 +45,10 @@ const Header = ({ data }) => {
               Resume
             </a>
           </li>
-          <li>
-            <a className="smoothscroll" href="#portfolio">
-              Works
-            </a>
-          </li>
-          <li>
-            <a className="smoothscroll" href="#testimonials">
-              Testimonials
-            </a>
-          </li>
+
           <li>
             <a className="smoothscroll" href="#contact">
-              Contact
+              sKILLS
             </a>
           </li>
         </ul>
@@ -68,7 +60,12 @@ const Header = ({ data }) => {
             <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
           </h1>
           <h3>
-            Based in {city}. <span>{occupation}</span>. {description}.
+            <span>
+              <pre></pre>
+            </span>
+            <span className="a">{occupation}</span>
+            <br />
+            <span className="b">...I Build Your Needs...</span>
           </h3>
           <hr />
           <ul className="social">{networks}</ul>

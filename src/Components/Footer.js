@@ -15,15 +15,15 @@ const Footer = ({ data }) => {
 
   return (
     <footer>
-      <div className="row">
+      <di className="row">
         <div className="twelve columns">
           <ul className="social-links">{networks}</ul>
 
           <ul className="copyright">
             <li>
               Made by{" "}
-              <a title="PAPA" href="http://www.papareact.com/">
-                PAPA
+              <a title="PAPA" href="/">
+                Hrithik
               </a>
             </li>
           </ul>
@@ -33,7 +33,7 @@ const Footer = ({ data }) => {
             <i className="icon-up-open"></i>
           </a>
         </div>
-      </div>
+      </di
     </footer>
   );
 };

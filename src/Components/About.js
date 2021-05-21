@@ -1,4 +1,5 @@
 import React from "react";
+import "./about.css";
 
 const About = ({ data }) => {
   if (data) {
@@ -21,7 +22,7 @@ const About = ({ data }) => {
           <img
             className="profile-pic"
             src={profilepic}
-            alt="Sonny's Profile Pic"
+            alt="Hrithik's Profile Pic"
           />
         </div>
         <div className="nine columns main-col">

@@ -1,0 +1,11 @@
+.a {
+  align-items: center;
+  text-align: center;
+
+  background-color: black;
+}
+
+.b {
+  font-weight: 600;
+  color: black;
+}
